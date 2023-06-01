@@ -7,7 +7,7 @@ metadata:
     name: node-js-deploy
     app: nodeapp
 spec:
-  type: Loadbalancer
+  type: LoadBalancer
   ports:
   - protocol:TCP
     port: 80
