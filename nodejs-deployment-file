@@ -5,19 +5,19 @@ metadata:
   name: node-js-deploy
   labels:
     name: node-js-deploy
-    app: node app
+    app: nodeapp
 spec:
   replicas: 1
   selector:
     matchLabels:
       name: node-js-deploy
-      app: node app
+      app: nodeapp
   template:
     metadata:
       name: node-app-pod
       labels:
         name: node-app-pod
-        app: node app
+        app: nodeapp
     spec:
       containers:
       - name: node-app
