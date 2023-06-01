@@ -16,7 +16,7 @@ spec:
     metadata:
       name: node-app-pod
       labels:
-        name: node-app-pod
+        name: node-js-deploy
         app: nodeapp
     spec:
       containers:
