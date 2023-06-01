@@ -11,7 +11,7 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30004
+    nodePort: 30011
   selector:
     name: node-js-deploy
     app: nodeapp
