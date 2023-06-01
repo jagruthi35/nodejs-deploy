@@ -9,7 +9,8 @@ metadata:
 spec:
   type: Loadbalancer
   ports:
-  - port: 80
+  - protocol:TCP
+    port: 80
     targetPort: 80
     nodePort: 30004
   selector:
