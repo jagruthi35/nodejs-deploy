@@ -5,7 +5,7 @@ metadata:
   name: nodeapp-service
   labels:
     name: node-js-deploy
-    app: node app
+    app: nodeapp
 spec:
   type: Loadbalancer
   ports:
@@ -14,4 +14,4 @@ spec:
     nodePort: 30004
   selector:
     name: node-js-deploy
-    app: node app
+    app: nodeapp
